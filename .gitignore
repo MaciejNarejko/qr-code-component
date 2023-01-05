@@ -1,0 +1,12 @@
+# Ignore Sketch and Figma design files
+*.sketch
+*.fig
+
+# Ignore XD files
+*.xd
+
+# Ignore Mac system files
+.DS_Store
+.prettierignore
+
+
