@@ -1,5 +1,57 @@
+@use 'variables' as *;
+
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+
+body {
+	height: 100vh;
+	display: grid;
+	place-items: center;
+	font-size: 15px;
+	font-family: $ff-outfit;
+	background-color: $c-light-gray;
+
+}
+
+.card {
+	min-width: 15em;
+	max-width: 21.3em;
+	background-color: $c-white;
+	border-radius: 0.75rem;
+	margin: 0 auto;
+	box-shadow: 3px 12px 20px 0px $c-grayish-blue;
+
+
+	&__image {
+		display: block;
+		max-width: 90%;
+		border-radius: 0.75rem;
+		margin: 1.2rem auto;
+	}
+
+	&__body {
+		margin: 2rem 2rem 2.3rem 2rem;
+	}
+	&__title {	
+		color: $c-dark-blue;
+		font-size: 1.3rem;
+		text-indent: 4px;
+	}
+	&__text {
+		margin: 1.1rem 0;
+		color: $c-grayish-blue;
+		word-spacing: 1px;
+		line-height: 1.3em;
+	}
+
+	&__title, &__text {
+		text-align: center;
+	}
+}
+
+.footer {
+	display: none;
 }
