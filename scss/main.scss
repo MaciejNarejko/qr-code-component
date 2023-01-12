@@ -34,7 +34,7 @@ body {
 	&__image {
 		display: block;
 		max-width: 100%;
-		transition: transform ease-in-out 0.3s;
+		transition: transform ease-in-out 0.4s;
 	}
 
 	&__image:hover {
@@ -44,7 +44,7 @@ body {
 	&__body {
 		margin: 2rem 2rem 2.3rem 2rem;
 	}
-	&__title {	
+	&__title {
 		font-size: 1.3rem;
 		text-indent: 4px;
 		color: $c-dark-blue;
@@ -56,7 +56,8 @@ body {
 		color: $c-grayish-blue;
 	}
 
-	&__title, &__text {
+	&__title,
+	&__text {
 		text-align: center;
 	}
 }
