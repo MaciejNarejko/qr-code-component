@@ -17,7 +17,6 @@ body {
 
 .card {
 	margin: 0 auto;
-	min-width: 15em;
 	max-width: 21.3em;
 	background-color: $c-white;
 	border-radius: 0.75rem;
@@ -26,7 +25,7 @@ body {
 	&__figure {
 		display: grid;
 		place-items: center;
-		margin: 1.2rem;
+		margin: 1rem;
 		overflow: hidden;
 		border-radius: 0.75rem;
 	}
@@ -42,7 +41,7 @@ body {
 	}
 
 	&__body {
-		margin: 2rem 2rem 2.3rem 2rem;
+		margin: 1.5rem 2rem 2.3rem 1.5rem;
 	}
 	&__title {
 		font-size: 1.3rem;
@@ -50,7 +49,7 @@ body {
 		color: $c-dark-blue;
 	}
 	&__text {
-		margin: 1.1rem;
+		margin: 1rem 0.5rem;
 		word-spacing: 1px;
 		line-height: 1.3em;
 		color: $c-grayish-blue;
