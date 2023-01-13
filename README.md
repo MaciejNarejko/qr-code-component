@@ -2,15 +2,15 @@
 
 <div align="center">
   <h3>
-    <a href="">
+    <a href="https://maciejnarejko.github.io/qr-code-component/">
       Live
     </a>
     | 
-    <a href="">
+    <a href="https://www.frontendmentor.io/solutions/qr-code-component-sYR3T9llEI">
       Solution
     </a>
     | 
-    <a href="">
+    <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H">
       Challenge
     </a>
   </h3>
@@ -40,4 +40,4 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Acknowledgments
 
 Thanks to the FrontendMentor.io community for a code review.
-Together we create better code.
+Together we write better code.
