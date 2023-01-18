@@ -15,16 +15,17 @@ body {
 }
 
 .card {
-  margin: 0 auto;
+  margin: 1rem;
   max-width: 21.3em;
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 0.75rem;
-  box-shadow: 3px 12px 20px 0px hsl(220deg, 15%, 55%);
+  box-shadow: 2px 8px 20px 0px hsl(220deg, 15%, 55%);
 }
 .card__figure {
   display: grid;
   place-items: center;
   margin: 1rem;
+  will-change: transform;
   overflow: hidden;
   border-radius: 0.75rem;
 }

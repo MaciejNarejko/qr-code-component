@@ -16,16 +16,17 @@ body {
 }
 
 .card {
-	margin: 0 auto;
+	margin: 1rem;
 	max-width: 21.3em;
 	background-color: $c-white;
 	border-radius: 0.75rem;
-	box-shadow: 3px 12px 20px 0px $c-grayish-blue;
+	box-shadow: 2px 8px 20px 0px $c-grayish-blue;
 
 	&__figure {
 		display: grid;
 		place-items: center;
 		margin: 1rem;
+		will-change: transform;
 		overflow: hidden;
 		border-radius: 0.75rem;
 	}
